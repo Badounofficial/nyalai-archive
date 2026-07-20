@@ -1,0 +1,225 @@
+---
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+const pageDescription = description || 'Nyalai archive : dated snapshots of nyalai.com canonical pages. Primary tier of the two-tier archival stack per Refusal Doctrine v0.3.4 archival mechanism obligation.';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={pageDescription} />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href={`https://archive.nyalai.com${Astro.url.pathname}`} />
+  <title>{title}</title>
+
+  <style is:global>
+    /* Nyalai design tokens (matching nyalai.com/doctrine) : no external font CDN, system + fallback */
+    :root {
+      --warm-white: #FDFCFA;
+      --cream: #F5F0E6;
+      --cream-deep: #EDE6D5;
+      --taupe: #C4B7A2;
+      --taupe-deep: #A99A82;
+      --charcoal: #1F2A2E;
+      --charcoal-soft: #2b3438;
+      --warm-dark: #3d3428;
+      --amber: #C58940;
+      --amber-deep: #a26e2e;
+      --rust: #a04a3d;
+      --rust-deep: #7d3a30;
+      --muted: #7a736a;
+      --divider: #e8e2d4;
+      --divider-soft: #efe9d9;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--warm-white);
+      color: var(--charcoal);
+      font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, 'Times New Roman', serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    header.top {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(253, 252, 250, 0.94);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--divider-soft);
+      padding: 1.1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    header.top .brand {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--charcoal);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    header.top .brand-tag {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-left: 0.5rem;
+      font-weight: 400;
+    }
+
+    header.top .back-link {
+      font-size: 0.9rem;
+      color: var(--amber-deep);
+      text-decoration: none;
+    }
+
+    header.top .back-link:hover {
+      color: var(--rust);
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 2rem 5rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      color: var(--charcoal);
+      margin: 0 0 1rem 0;
+      letter-spacing: -0.01em;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--charcoal);
+      margin: 3rem 0 1rem 0;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--divider);
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--warm-dark);
+      margin: 2rem 0 0.75rem 0;
+    }
+
+    p {
+      margin: 0 0 1rem 0;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--amber-deep);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s ease;
+    }
+
+    a:hover {
+      border-bottom-color: var(--amber-deep);
+    }
+
+    .lede {
+      font-size: 1.1rem;
+      color: var(--charcoal-soft);
+      margin-bottom: 2rem;
+      line-height: 1.65;
+    }
+
+    .snapshot-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .snapshot-list li {
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--divider-soft);
+    }
+
+    .snapshot-date {
+      font-size: 0.95rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      display: inline-block;
+      min-width: 130px;
+    }
+
+    .snapshot-version {
+      font-size: 0.95rem;
+      color: var(--warm-dark);
+      font-weight: 600;
+      display: inline-block;
+      min-width: 90px;
+    }
+
+    .snapshot-desc {
+      font-size: 0.95rem;
+      color: var(--charcoal-soft);
+    }
+
+    .empty-notice {
+      background: var(--cream);
+      border-left: 3px solid var(--taupe);
+      padding: 1.25rem 1.5rem;
+      margin: 2rem 0;
+      color: var(--warm-dark);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      max-width: 900px;
+      margin: 4rem auto 0;
+      padding: 2rem 2rem 3rem;
+      border-top: 1px solid var(--divider);
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    footer .cc0 {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div>
+      <a href="/" class="brand">Nyalai archive</a>
+      <span class="brand-tag">primary preservation tier</span>
+    </div>
+    <a href="https://nyalai.com" class="back-link">back to nyalai.com</a>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer>
+    <p>Published under Creative Commons Zero v1.0 Universal (CC0-1.0). <span class="cc0">Zero third-party chrome. Zero analytics. Zero external fonts.</span></p>
+    <p>Primary tier of the Nyalai two-tier archival stack, per Refusal Doctrine archival mechanism obligation.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+name: Astro build check
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: npm ci
+      - name: Astro build
+        run: npm run build
+      - name: Verify build output
+        run: |
+          test -d dist/ || (echo "Build did not produce dist/ directory" && exit 1)
+          test -f dist/index.html || (echo "Build did not produce dist/index.html" && exit 1)
+          echo "Build check passed"
