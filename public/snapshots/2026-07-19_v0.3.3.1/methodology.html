@@ -1,0 +1,284 @@
+<!DOCTYPE html><html lang="en"><head><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/png" href="favicon.png%3Fv=2026-07-11"><link rel="apple-touch-icon" href="favicon.png%3Fv=2026-07-11"><meta name="theme-color" content="#1F2A2E"><link rel="sitemap" href="sitemap-index.xml"><meta name="generator" content="Astro v7.0.6"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=JetBrains+Mono:wght@400;500&display=swap"><style>@font-face{font-family:Atkinson-c7f4c4e8b285552f;src:url("_astro/fonts/c8e1359011974766.woff") format("woff");font-display:swap;font-weight:400;font-style:normal;}@font-face{font-family:Atkinson-c7f4c4e8b285552f;src:url("_astro/fonts/6b82a9ea24a905e9.woff") format("woff");font-display:swap;font-weight:700;font-style:normal;}@font-face{font-family:"Atkinson-c7f4c4e8b285552f fallback: Arial";src:local("Arial");font-display:swap;font-weight:400;font-style:normal;size-adjust:99.3717%;ascent-override:80.1033%;descent-override:25.2587%;line-gap-override:0%;}@font-face{font-family:"Atkinson-c7f4c4e8b285552f fallback: Arial Bold";src:local("Arial Bold");font-display:swap;font-weight:700;font-style:normal;size-adjust:92.2954%;ascent-override:86.2448%;descent-override:27.1953%;line-gap-override:0%;}:root{--font-atkinson:Atkinson-c7f4c4e8b285552f,"Atkinson-c7f4c4e8b285552f fallback: Arial","Atkinson-c7f4c4e8b285552f fallback: Arial Bold",sans-serif;}</style><link rel="preload" href="_astro/fonts/c8e1359011974766.woff" as="font" type="font/woff" crossorigin><link rel="preload" href="_astro/fonts/6b82a9ea24a905e9.woff" as="font" type="font/woff" crossorigin><!-- Canonical URL --><link rel="canonical" href="methodology.html"><!-- Primary Meta Tags --><title>Methodology · The five gates and Model Trust Levels | Nyalai</title><meta name="description" content="Nyalai's adversarial validation methodology in one page. Five gates: Deflated Sharpe Ratio, cross-regime robustness, guided-search safety, probabilistic calibration, bootstrap confidence. Model Trust Levels MTL-1 through MTL-5. Sequence commitment. Triangulation. Aligned with Refusal Doctrine v0.3.3.1. CC0."><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:site_name" content="Nyalai"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://nyalai.com/methodology/"><meta property="og:title" content="Methodology · The five gates and Model Trust Levels | Nyalai"><meta property="og:description" content="Nyalai's adversarial validation methodology in one page. Five gates: Deflated Sharpe Ratio, cross-regime robustness, guided-search safety, probabilistic calibration, bootstrap confidence. Model Trust Levels MTL-1 through MTL-5. Sequence commitment. Triangulation. Aligned with Refusal Doctrine v0.3.3.1. CC0."><meta property="og:image" content="https://nyalai.com/og/nyalai-og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Nyalai — the calibration engine for probabilistic systems in quantitative finance"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@Nyalailabs"><meta name="twitter:title" content="Methodology · The five gates and Model Trust Levels | Nyalai"><meta name="twitter:description" content="Nyalai's adversarial validation methodology in one page. Five gates: Deflated Sharpe Ratio, cross-regime robustness, guided-search safety, probabilistic calibration, bootstrap confidence. Model Trust Levels MTL-1 through MTL-5. Sequence commitment. Triangulation. Aligned with Refusal Doctrine v0.3.3.1. CC0."><meta name="twitter:image" content="https://nyalai.com/og/nyalai-og.png"><!-- Structured Data: Organization --><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Nyalai","url":"https://nyalai.com","logo":"https://nyalai.com/assets/nyalai_wordmark.png","description":"The calibration engine for probabilistic systems in quantitative finance. Independent adversarial validator for quantitative trading strategies, forecasting systems, and AI-generated market signals.","founder":{"@type":"Person","name":"Sebastien Assohou"},"sameAs":["https://www.linkedin.com/company/nyalai","https://x.com/Nyalailabs"]}</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="_astro/ContactWidget.BSFEn7gM.css"><link rel="stylesheet" href="_astro/methodology.7RV7IBUo.css"></head><body class="methodology-page"><header class="top"><a href="index.html" class="brand" aria-label="Nyalai home"><img src="assets/nyalai_wordmark.png" alt="Nyalai"></a><div class="top-right-group"><span class="page-tag">Methodology · Doctrine v0.3.3.1</span><button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" data-nav-open><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="17" x2="20" y2="17"></line></svg></button><a href="contact.html" class="contact-btn" data-contact-open aria-label="Open contact form"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>Contact</a></div></header><!-- MOBILE DRAWER --><div class="nav-backdrop" data-nav-backdrop aria-hidden="true"></div><aside class="nav-drawer" id="navDrawer" aria-label="Site navigation" aria-hidden="true"><button type="button" class="drawer-close" aria-label="Close menu" data-nav-close><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"></line><line x1="18" y1="6" x2="6" y2="18"></line></svg></button><a href="index.html#numbers" data-nav-link>Industry</a><a href="index.html#verdicts" data-nav-link>Verdicts</a><a href="methodology.html" class="drawer-current" data-nav-link>Methodology</a><a href="doctrine.html" data-nav-link>Doctrine</a><a href="submit.html" data-nav-link>Submit</a><a href="contact.html" class="drawer-contact" data-nav-link data-contact-open><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>Contact</a></aside><main><!-- HERO --><section class="methodology-hero"><div class="methodology-hero-inner"><p class="hero-eyebrow">Methodology · one page</p><h1 class="hero-title">Five adversarial gates. One <em>binary</em> verdict.</h1><p class="hero-lede">Nyalai returns a <strong class="verdict-word pass">CALIBRATED</strong> or <strong class="verdict-word fail">NOT-CALIBRATED</strong> verdict on every probabilistic system submitted for validation. Each gate uses the statistical framework appropriate to its specific question. A strategy that clears all five is Adversarially Validated. A strategy that fails one is refused.</p></div></section><!-- THE PROBLEM --><section class="section-wrap cream"><div class="section-inner"><p class="section-eyebrow">The problem</p><h2 class="section-title">Institutional MRM addresses the first three quadrants. Nyalai closes the <em>fourth</em>.</h2><div class="problem-callout"><p>In the taxonomy Nassim Taleb published in 2008, decisions divide along two axes: whether the payoff structure is simple or complex, and whether the underlying randomness lives in thin-tailed or fat-tailed distributions. Quantitative strategies operate in the complex-and-fat-tailed region: nonlinear payoffs, unbounded loss possibilities, regime shifts. SR 11-7 and equivalent model risk management guidance address the first three regions adequately. The fourth is where standard validation methodology fails, and where an external adversarial layer is not an addition. It is a requirement.</p></div></div></section><!-- THE FIVE GATES --><section class="section-wrap"><div class="section-inner"><p class="section-eyebrow">The five gates</p><h2 class="section-title">Each gate uses the statistical framework appropriate to <em>its</em> question.</h2><p class="section-lede">Modular validation methodology, as Joseph Simonian framed it in the Journal of Financial Data Science in 2020. Each gate below cites the peer-reviewed methodology it operationalizes. Every threshold has a stated rationale. Every deviation from the standard method is flagged in the verdict-form.</p><div class="gates-grid"><!-- Gate 1 --><div class="gate-card" data-detail="gate-1" data-detail-title="Gate 1 : Statistical fragility" data-detail-eyebrow="The Deflated Sharpe Ratio"><div class="gate-num">Gate 1</div><div class="gate-name">Statistical fragility</div><dl class="gate-meta"><dt>Test</dt><dd>Deflated Sharpe Ratio for return-generating strategies (Gate 1a, Bailey and López de Prado 2014), or Brier Skill Score for probabilistic prediction systems (Gate 1b, Brier 1950 as operationalized under Murphy 1973). See Doctrine §9.1.</dd><dt>Threshold</dt><dd>DSR ≥ 0.95 (Gate 1a) or BSS ≥ 0.05 (Gate 1b), per Doctrine §9.1</dd></dl><p class="gate-purpose">Detects strategies whose observed edge does not survive correction for multiple testing, non-normality of returns, and length of the observation window.</p></div><!-- Gate 2 --><div class="gate-card" data-detail="gate-2" data-detail-title="Gate 2 : Cross-regime robustness" data-detail-eyebrow="HMM regime detection"><div class="gate-num">Gate 2</div><div class="gate-name">Cross-regime robustness</div><dl class="gate-meta"><dt>Test</dt><dd>Hidden Markov Model regime detection with per-regime performance decomposition</dd><dt>Threshold</dt><dd>Sharpe &gt; 0 in every detected regime</dd></dl><p class="gate-purpose">Detects strategies whose profitability is concentrated in a single market state and would deteriorate under an unencountered regime.</p></div><!-- Gate 3 --><div class="gate-card" data-detail="gate-3" data-detail-title="Gate 3 : Guided-search safety" data-detail-eyebrow="Aronson-Masters permutation test"><div class="gate-num">Gate 3</div><div class="gate-name">Guided-search safety</div><dl class="gate-meta"><dt>Test</dt><dd>Guided-search-safe permutation test (Aronson and Masters, 2013)</dd><dt>Threshold</dt><dd>p &lt; 0.05 after correction for the disclosed number of configurations tested</dd></dl><p class="gate-purpose">Detects strategies whose significance was inflated by directed exploration during development, the failure mode that machine-learning workflows produce by default.</p></div><!-- Gate 4 --><div class="gate-card" data-detail="gate-4" data-detail-title="Gate 4 : Probabilistic calibration" data-detail-eyebrow="Brier Skill Score and ECE"><div class="gate-num">Gate 4</div><div class="gate-name">Probabilistic calibration</div><dl class="gate-meta"><dt>Test</dt><dd>Brier Skill Score against naïve baseline; Expected Calibration Error</dd><dt>Threshold</dt><dd>BSS ≥ 0.05, ECE ≤ 0.05</dd></dl><p class="gate-purpose">Detects strategies whose stated confidence estimates diverge from realized outcomes. A signal that is directionally correct but miscalibrated breaks position sizing.</p></div><!-- Gate 5 --><div class="gate-card" data-detail="gate-5" data-detail-title="Gate 5 : Bootstrap confidence" data-detail-eyebrow="Block bootstrap resampling"><div class="gate-num">Gate 5</div><div class="gate-name">Bootstrap confidence</div><dl class="gate-meta"><dt>Test</dt><dd>Block bootstrap resampling (Politis and Romano, 1994)</dd><dt>Threshold</dt><dd>95% confidence interval lower bound &gt; 0, net of costs</dd></dl><p class="gate-purpose">Detects strategies whose expected edge is positive but whose variance is large enough that the strategy may not remain profitable under realistic path variations.</p></div></div></div></section><!-- MODEL TRUST LEVELS --><section id="mtl-detail" class="section-wrap soft-deep"><div class="section-inner"><p class="section-eyebrow">Deployment vocabulary</p><h2 class="section-title">Model Trust Levels. From MTL-1 <em>Untested</em> to MTL-5 <em>Live</em>.</h2><p class="section-lede">A shared vocabulary for how much trust to place in a probabilistic prediction system. Numbered ascending intensity. Each level defined by empirical passage of specific gates. Strict nesting. Binary per level. Publicly contestable. Time-bounded.</p><div class="ladder"><div class="level l1" id="mtl-1" data-mtl="1" data-detail="mtl-1" data-detail-title="MTL-1 Untested" data-detail-eyebrow="Model Trust Level 1"><div class="level-num"><span class="code">MTL</span><span class="digit">1</span></div><div class="level-body"><div class="level-name">Untested</div><div class="level-desc">No independent validation performed. No public methodology. No track record.</div><div class="level-context">Pre-production research · <span class="denied">Not for capital allocation</span></div></div></div><div class="level l2" id="mtl-2" data-mtl="2" data-detail="mtl-2" data-detail-title="MTL-2 Nominally Calibrated" data-detail-eyebrow="Model Trust Level 2"><div class="level-num"><span class="code">MTL</span><span class="digit">2</span></div><div class="level-body"><div class="level-name">Nominally Calibrated</div><div class="level-desc">Passes Gate 1 (Gate 1a DSR or Gate 1b BSS, per §9.1) and Gate 4 on a documented ledger of at least 200 resolved observations.</div><div class="level-context">Advisory signal · <span class="denied">Never sole allocation signal</span></div></div></div><div class="level l3" id="mtl-3" data-mtl="3" data-detail="mtl-3" data-detail-title="MTL-3 Robustly Calibrated" data-detail-eyebrow="Model Trust Level 3"><div class="level-num"><span class="code">MTL</span><span class="digit">3</span></div><div class="level-body"><div class="level-name">Robustly Calibrated</div><div class="level-desc">Passes MTL-2 plus Gate 2 cross-regime robustness. Failure modes documented publicly.</div><div class="level-context">Multi-signal portfolio · <span class="allowed">Measured exposure with limits, quarterly revalidation</span></div></div></div><div class="level l4" id="mtl-4" data-mtl="4" data-detail="mtl-4" data-detail-title="MTL-4 Adversarially Validated" data-detail-eyebrow="Model Trust Level 4"><div class="level-num"><span class="code">MTL</span><span class="digit">4</span></div><div class="level-body"><div class="level-name">Adversarially Validated</div><div class="level-desc">Passes MTL-3 plus Gate 3 guided-search safety and Gate 5 bootstrap confidence. Sovereignty rule seven enforced: validator and strategy author structurally distinct.</div><div class="level-context">Primary allocation signal · <span class="allowed">Institutional scale, biannual revalidation, annual public report</span></div></div></div><div class="level l5" id="mtl-5" data-mtl="5" data-detail="mtl-5" data-detail-title="MTL-5 Continuously Live-Validated" data-detail-eyebrow="Model Trust Level 5"><div class="level-num"><span class="code">MTL</span><span class="digit">5</span></div><div class="level-body"><div class="level-name">Continuously Live-Validated</div><div class="level-desc">Passes MTL-4 plus rolling live verdict updates. Automatic drift detection and forced revalidation on regime change.</div><div class="level-context">Mission-critical live trading · <span class="allowed">Scaled deployment under continuous supervision</span></div></div></div></div><p class="ladder-note">Every MTL attribution is publicly contestable through the audit trail supplied with the verdict-form. Any independent third party may reproduce the computation and challenge the attribution.</p></div></section><!-- WHAT ALLOCATORS RECEIVE --><section class="section-wrap cream"><div class="section-inner"><p class="section-eyebrow">What allocators receive</p><h2 class="section-title">A verdict-form structured as a <em>medical report</em>.</h2><p class="section-lede">Findings first, methodology available on request, references cited for audit. Two layers: the upper layer states the verdict in institutional vocabulary; the lower layer supplies the technical evidence. The upper layer never overstates what the lower supports.</p><div class="receive-grid"><div class="receive-card"><h4>Verdict scope statement</h4><p>Regime scope, sizing envelope, portfolio-construction assumptions. Deployment outside the envelope invalidates the verdict. A verdict on a signal is not a verdict on the portfolio built from that signal.</p></div><div class="receive-card"><h4>Triangulation panel</h4><p>Risk category times business context times regulatory frame. Adapted from the three-lens framework Senthil Kumar established while Chief Risk Officer at BNY Mellon. A verdict against one triangulation cell does not extend to another.</p></div><div class="receive-card"><h4>Communication layer</h4><p>Upper allocator vocabulary (shortfall, drawdown, liquidity, embarrassment, per Matt Bank's Four Horsemen framework at GEM). Lower technical evidence (DSR, BSS, ECE, bootstrap CIs). Both required.</p></div><div class="receive-card"><h4>Citation guidance</h4><p>The verdict-form is designed to be citable by model owners, independent validators, and internal audit across all three lines of institutional defense. Framework, not model, following Roland Stamm at Acadia.</p></div><div class="receive-card"><h4>Reproducibility appendix</h4><p>Doctrine version applied, ʼCɩcɛ validator commit hash, statistical package versions, random seeds, bootstrap block sizes, HMM state counts, data provenance. Anyone can re-run.</p></div><div class="receive-card"><h4>Style drift trigger</h4><p>Any material change in features, instrument universe, risk parameters, or claimed problem domain invalidates the previous verdict. Re-validation required, not optional.</p></div></div></div></section><!-- SEQUENCE COMMITMENT --><section class="section-wrap"><div class="section-inner"><p class="section-eyebrow">Input integrity</p><h2 class="section-title">Sequence commitment.</h2><p class="section-lede">Nyalai never requests permission to publish a case, or to use it in any downstream decision, before a verdict is rendered. Consent for publication or downstream reference is collected after the verdict is rendered, on a document the submitter reviews. Refusal of downstream use does not alter the verdict itself.</p><div class="commitment-panel"><p><strong>1. Submission is frozen first.</strong> Timestamp and hash are recorded before any conversation about downstream use begins.</p><p><strong>2. Gates run without stake exposure.</strong> The strategy author is never told, during evaluation, what downstream consequences might attach to the verdict.</p><p><strong>3. Consent comes after the verdict.</strong> Publication, private client disclosure, aggregate research, or external reference are all conditioned on consent collected after the verdict is fixed.</p><p class="commitment-note">This is not a mental-state promise. It is an order-of-operations commitment that Nyalai controls and any third party can audit. Per Refusal Doctrine section 12.4. A discipline of validity, not virtue.</p></div></div></section><!-- CTA --><section class="methodology-cta"><h2>The full methodology is <em>public</em>.</h2><p>Every gate, every threshold, every methodological choice is documented in the Refusal Doctrine v0.3.3.1. Twelve sections plus acknowledgments plus primary-source bibliography. Published under CC0 1.0. Anyone can reimplement it, contest it, or diverge from it.</p><div class="cta-buttons"><a href="doctrine.html" class="cta-primary">Read the full Doctrine<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12,5 19,12 12,19"></polyline></svg></a><a href="submit.html" class="cta-secondary">Submit a system for validation</a><a href="glossary.html" class="cta-secondary">Glossary</a></div></section><!-- BOTTOM META BAR --><section class="methodology-meta-bar"><div class="methodology-meta-inner"><p class="meta-devise">Trust is not a result of validation.<br>It is the product of the rigor with which we accept to contradict ourselves.</p><p class="meta-attr">Methodology · Doctrine v0.3.3.1 · July 19, 2026 · Sebastien Assohou · Nyalai</p><div class="meta-social"><a href="https://www.linkedin.com/company/nyalai" class="linkedin" target="_blank" rel="noopener noreferrer" aria-label="Nyalai on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 8h-3.88v13h3.88V8zm-1.94-5.5a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zM14.5 8c-1.66 0-2.75.83-3.25 1.75V8h-3.75v13h3.75v-7.25c0-1.66.66-2.5 2.16-2.5s2.09.84 2.09 2.5V21H19v-8c0-3.5-1.66-5-4.5-5z"></path></svg></a><a href="https://x.com/Nyalailabs" class="x" target="_blank" rel="noopener noreferrer" aria-label="Nyalai on X"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a></div><p class="meta-email"><a href="https://nyalai.com/cdn-cgi/l/email-protection#6c0f0302180d0f182c02150d000d05420f0301"><span class="__cf_email__" data-cfemail="a5c6cacbd1c4c6d1e5cbdcc4c9c4cc8bc6cac8">[email&#160;protected]</span></a></p><p class="meta-license">This methodology page is published under CC0 1.0 Universal Public Domain Dedication.</p></div></section></main><a href="index.html" class="back-fab" aria-label="Back to Nyalai homepage"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12,19 5,12 12,5"></polyline></svg><span>Back</span></a><!-- FOCUS MODAL : used by gate and MTL cards --><dialog class="focus-modal" id="focusModal" aria-labelledby="focusModalTitle"><button type="button" class="modal-close" aria-label="Close" data-modal-close>×</button><div class="modal-inner"><p class="modal-eyebrow" id="focusModalEyebrow"></p><h3 class="modal-title" id="focusModalTitle"></h3><div class="modal-body" id="focusModalBody"></div></div></dialog><div id="contactModal" class="contact-modal" role="dialog" aria-modal="true" aria-labelledby="cwTitle" aria-hidden="true" data-astro-cid-cmcn3ymj><div class="cw-backdrop" data-close="1" data-astro-cid-cmcn3ymj></div><div class="cw-panel" data-astro-cid-cmcn3ymj><button class="cw-close" data-close="1" aria-label="Close" data-astro-cid-cmcn3ymj><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-cmcn3ymj><line x1="18" y1="6" x2="6" y2="18" data-astro-cid-cmcn3ymj></line><line x1="6" y1="6" x2="18" y2="18" data-astro-cid-cmcn3ymj></line></svg></button><p class="cw-eyebrow" data-astro-cid-cmcn3ymj>Direct contact</p><h2 id="cwTitle" class="cw-title" data-astro-cid-cmcn3ymj>Write to me.</h2><p class="cw-motto" data-astro-cid-cmcn3ymj><em data-astro-cid-cmcn3ymj>I answer anything that looks like a signal.<br data-astro-cid-cmcn3ymj>I do not answer generic pitches.</em></p><form id="contactForm" class="cw-form" novalidate data-astro-cid-cmcn3ymj><label class="cw-field" data-astro-cid-cmcn3ymj><span class="cw-label-text" data-astro-cid-cmcn3ymj>Name</span><input type="text" name="name" required autocomplete="name" maxlength="120" data-astro-cid-cmcn3ymj></label><label class="cw-field" data-astro-cid-cmcn3ymj><span class="cw-label-text" data-astro-cid-cmcn3ymj>Email</span><input type="email" name="email" required autocomplete="email" maxlength="200" data-astro-cid-cmcn3ymj></label><label class="cw-field" data-astro-cid-cmcn3ymj><span class="cw-label-text" data-astro-cid-cmcn3ymj>Affiliation <span class="cw-optional" data-astro-cid-cmcn3ymj>(optional)</span></span><input type="text" name="affiliation" autocomplete="organization" maxlength="200" data-astro-cid-cmcn3ymj></label><label class="cw-field" data-astro-cid-cmcn3ymj><span class="cw-label-text" data-astro-cid-cmcn3ymj>Message</span><textarea name="message" required rows="5" maxlength="4000" placeholder="Reach out with substance. Skip the preamble." data-astro-cid-cmcn3ymj></textarea></label><!-- honeypot --><input type="text" name="company_website" tabindex="-1" autocomplete="off" class="cw-honeypot" aria-hidden="true" data-astro-cid-cmcn3ymj><div class="cw-actions" data-astro-cid-cmcn3ymj><button type="submit" class="cw-submit" data-astro-cid-cmcn3ymj><span class="cw-submit-idle" data-astro-cid-cmcn3ymj>Send</span><span class="cw-submit-loading" data-astro-cid-cmcn3ymj>Sending…</span></button></div><p class="cw-status" role="status" aria-live="polite" data-astro-cid-cmcn3ymj></p><p class="cw-fallback" data-astro-cid-cmcn3ymj>Prefer email directly?<a href="https://nyalai.com/cdn-cgi/l/email-protection#12717d7c66737166527c6b737e737b3c717d7f" data-cw-native="1" data-astro-cid-cmcn3ymj><span class="__cf_email__" data-cfemail="84e7ebeaf0e5e7f0c4eafde5e8e5edaae7ebe9">[email&#160;protected]</span></a></p></form></div></div><script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+	(function () {
+		var modal = document.getElementById('contactModal');
+		var form = document.getElementById('contactForm');
+		if (!modal || !form) return;
+
+		var status = modal.querySelector('.cw-status');
+		var submit = modal.querySelector('.cw-submit');
+
+		function open() {
+			modal.classList.add('open');
+			modal.setAttribute('aria-hidden', 'false');
+			document.body.style.overflow = 'hidden';
+			setTimeout(function () {
+				var first = form.querySelector('input[name="name"]');
+				if (first) first.focus();
+			}, 60);
+		}
+		function close() {
+			modal.classList.remove('open');
+			modal.setAttribute('aria-hidden', 'true');
+			document.body.style.overflow = '';
+		}
+
+		modal.addEventListener('click', function (e) {
+			if (!e.target || !e.target.closest) return;
+			if (e.target.closest('[data-close="1"]')) close();
+		});
+		document.addEventListener('keydown', function (e) {
+			if (e.key === 'Escape' && modal.classList.contains('open')) close();
+		});
+
+		// Auto-attach to any existing contact trigger on the page.
+		// Recognized triggers:
+		//   - a.contact-btn / button.contact-btn
+		//   - anything with data-contact-open attribute
+		//   - links pointing to /contact or mailto:contact@nyalai.com
+		// Escape hatch: elements with data-cw-native="1" bypass the widget
+		// and use the native browser behavior (mailto: opens email client).
+		document.addEventListener('click', function (e) {
+			if (!e.target || !e.target.closest) return;
+			var native = e.target.closest('[data-cw-native="1"]');
+			if (native) return;
+			var trigger = e.target.closest(
+				'.contact-btn, [data-contact-open], a[href="/contact"], a[href="/contact/"], a[href^="mailto:contact@nyalai.com"]'
+			);
+			if (trigger) {
+				e.preventDefault();
+				open();
+			}
+		});
+
+		form.addEventListener('submit', function (e) {
+			e.preventDefault();
+			status.textContent = '';
+			status.className = 'cw-status';
+
+			// honeypot
+			var hp = form.querySelector('input[name="company_website"]');
+			if (hp && hp.value) {
+				status.textContent = 'Submission blocked.';
+				status.className = 'cw-status error';
+				return;
+			}
+
+			var data = {
+				name: form.name.value.trim(),
+				email: form.email.value.trim(),
+				affiliation: form.affiliation.value.trim(),
+				message: form.message.value.trim(),
+				page: location.pathname
+			};
+			if (!data.name || !data.email || !data.message) {
+				status.textContent = 'Name, email and message are required.';
+				status.className = 'cw-status error';
+				return;
+			}
+
+			submit.classList.add('loading');
+			submit.disabled = true;
+
+			fetch('/api/contact', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify(data)
+			})
+				.then(function (r) {
+					return r.json().then(function (j) { return { ok: r.ok, body: j }; });
+				})
+				.then(function (res) {
+					if (res.ok) {
+						status.textContent = 'Message received. I read every one. Reply within a few days.';
+						status.className = 'cw-status success';
+						form.reset();
+						setTimeout(close, 2600);
+					} else {
+						status.textContent = (res.body && res.body.error) || 'Something went wrong. Please try again or write to contact@nyalai.com.';
+						status.className = 'cw-status error';
+					}
+				})
+				.catch(function () {
+					status.textContent = 'Network error. Please try again or write to contact@nyalai.com.';
+					status.className = 'cw-status error';
+				})
+				.then(function () {
+					submit.classList.remove('loading');
+					submit.disabled = false;
+				});
+		});
+	})();
+</script><script>
+	// MOBILE NAV DRAWER
+	(function () {
+		var drawer = document.getElementById('navDrawer');
+		var backdrop = document.querySelector('[data-nav-backdrop]');
+		var openBtn = document.querySelector('[data-nav-open]');
+		var closeBtn = document.querySelector('[data-nav-close]');
+		if (!drawer || !backdrop || !openBtn) return;
+		function open() {
+			drawer.classList.add('open');
+			backdrop.classList.add('open');
+			document.body.classList.add('drawer-open');
+			openBtn.setAttribute('aria-expanded', 'true');
+			drawer.setAttribute('aria-hidden', 'false');
+		}
+		function close() {
+			drawer.classList.remove('open');
+			backdrop.classList.remove('open');
+			document.body.classList.remove('drawer-open');
+			openBtn.setAttribute('aria-expanded', 'false');
+			drawer.setAttribute('aria-hidden', 'true');
+		}
+		openBtn.addEventListener('click', open);
+		if (closeBtn) closeBtn.addEventListener('click', close);
+		backdrop.addEventListener('click', close);
+		drawer.querySelectorAll('[data-nav-link]').forEach(function (a) { a.addEventListener('click', close); });
+		document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && drawer.classList.contains('open')) close(); });
+	})();
+
+	// Preserve scroll position across navigation
+	if ('scrollRestoration' in history) { history.scrollRestoration = 'auto'; }
+
+	(function () {
+		var fab = document.querySelector('.back-fab');
+		if (!fab) return;
+		function update() {
+			if (window.scrollY > 400) fab.classList.add('visible');
+			else fab.classList.remove('visible');
+		}
+		window.addEventListener('scroll', update, { passive: true });
+		update();
+	})();
+
+	// Save scroll before leaving so browsers that don't restore automatically can
+	(function () {
+		var key = 'methodology_scroll_v1';
+		window.addEventListener('beforeunload', function () {
+			try { sessionStorage.setItem(key, String(window.scrollY)); } catch (e) {}
+		});
+		window.addEventListener('pageshow', function (e) {
+			if (e.persisted) {
+				try {
+					var y = parseInt(sessionStorage.getItem(key) || '0', 10);
+					if (y) window.scrollTo(0, y);
+				} catch (e) {}
+			}
+		});
+	})();
+
+	// FOCUS MODAL : gate cards + MTL cards
+	(function () {
+		var modal = document.getElementById('focusModal');
+		if (!modal) return;
+		var eyebrowEl = document.getElementById('focusModalEyebrow');
+		var titleEl = document.getElementById('focusModalTitle');
+		var bodyEl = document.getElementById('focusModalBody');
+
+		// Detail content library : extended prose for each card
+		var DETAILS = {
+			'gate-1': [
+				'<p>Any strategy tested on a finite history has some probability of producing a <strong>positive Sharpe ratio by chance alone</strong>, particularly when the developer has explored multiple configurations before settling on the one presented. The Deflated Sharpe Ratio corrects for this in a single number.</p>',
+				'<p>The correction factors in the number of trials, the non-normality of returns, the skewness and kurtosis of the return distribution, and the length of the observation window. A DSR above 0.95 means the observed Sharpe would occur in fewer than 5% of trials on random data with matching statistical properties.</p>',
+				'<p><strong>What it detects</strong>: strategies whose apparent edge is a statistical artifact of the search procedure, the sample size, or the shape of the return distribution.</p>',
+				'<p><strong>Gate 1b: Probabilistic prediction systems.</strong> If the system\'s primary output is a calibrated probability rather than a return series, the Brier Skill Score against a base-rate baseline replaces DSR. Threshold BSS ≥ 0.05 (Nyalai operating choice; rationale in Doctrine §9.1). Dual-output systems submit both ledgers and pass both variants.</p>',
+				'<p class="citation">Bailey, D. H. and López de Prado, M. (2014). The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting, and Non-Normality. <em>Journal of Portfolio Management</em>, 40(5).</p>'
+			].join(''),
+			'gate-2': [
+				'<p>Financial markets alternate between distinct statistical regimes. A strategy that appears profitable in aggregate may in fact concentrate its performance in a single regime and would deteriorate under an unencountered market state.</p>',
+				'<p>Gate 2 fits a <strong>Hidden Markov Model</strong> to the return series, identifies the latent regimes, and decomposes strategy performance regime by regime. A strategy passes only if it maintains a positive Sharpe ratio in every detected regime.</p>',
+				'<p><strong>What it detects</strong>: strategies whose profitability is a regime bet rather than a persistent edge. Especially relevant for strategies developed on data windows dominated by one regime.</p>',
+				'<p class="citation">HMM regime decomposition builds on the classical Baum-Welch estimation and Viterbi decoding literature applied to financial series.</p>'
+			].join(''),
+			'gate-3': [
+				'<p>Machine learning workflows produce inflated significance by default. Every hyperparameter tuning cycle, feature selection pass, and iterative model refinement is a form of <strong>directed exploration</strong>. Standard significance tests do not correct for this.</p>',
+				'<p>The Aronson-Masters permutation test remains valid <em>provided</em> the number of configurations tested is disclosed. Gate 3 requires the submitter to state the search size explicitly and applies the correction accordingly.</p>',
+				'<p><strong>What it detects</strong>: strategies whose statistical significance was produced by the search procedure rather than by a genuine underlying pattern in the data.</p>',
+				'<p class="citation">Aronson, D. R. and Masters, T. (2013). <em>Statistically Sound Machine Learning for Algorithmic Trading of Financial Instruments</em>. Independent publication. This 2013 volume corrects the guided-search limitations of the 2006 EBTA edition.</p>'
+			].join(''),
+			'gate-4': [
+				'<p>A strategy can be <em>directionally correct</em> yet <strong>miscalibrated</strong>. If a signal claims 70% confidence but is right only 55% of the time, position sizing built on the claimed confidence will be systematically wrong. Miscalibration destroys risk-adjusted returns even when direction is preserved.</p>',
+				'<p>Gate 4 measures the <strong>Brier Skill Score</strong> against a naïve baseline and the <strong>Expected Calibration Error</strong> across probability bins. Passing requires BSS ≥ 0.05 and ECE ≤ 0.05.</p>',
+				'<p><strong>What it detects</strong>: strategies whose stated confidence estimates diverge from realized frequencies. Especially relevant for probabilistic signals used in position sizing or Kelly-style allocation.</p>',
+				'<p class="citation">Brier, G. W. (1950). Verification of Forecasts Expressed in Terms of Probability. <em>Monthly Weather Review</em>, 78(1). Modern applications documented in Guo et al., 2017, and subsequent calibration literature.</p>'
+			].join(''),
+			'gate-5': [
+				'<p>A positive point estimate of the expected edge is not sufficient. Variance around that estimate can be large enough that the strategy may still be net-negative under realistic path variations. Gate 5 quantifies that uncertainty.</p>',
+				'<p>Block bootstrap resampling preserves the autocorrelation structure of the return series while generating thousands of alternative sample paths. The 95% confidence interval on the net-of-costs return must have a lower bound strictly greater than zero.</p>',
+				'<p><strong>What it detects</strong>: strategies whose expected edge is positive but whose distribution of possible outcomes includes a material probability of net loss over realistic deployment horizons.</p>',
+				'<p class="citation">Politis, D. N. and Romano, J. P. (1994). The Stationary Bootstrap. <em>Journal of the American Statistical Association</em>, 89(428).</p>'
+			].join(''),
+			'mtl-1': [
+				'<p><strong>Untested</strong>. The strategy has not been submitted for independent validation. No public methodology, no track record, no third-party reproducibility.</p>',
+				'<p><strong>Appropriate use</strong>: pre-production research environments only. Sandbox exploration, feature discovery, hypothesis generation.</p>',
+				'<p><strong>Not appropriate for</strong>: capital allocation of any size. Discretionary override on live strategies. Client-facing communication that implies validation.</p>',
+				'<p class="citation">MTL-1 is the default state of every unvalidated system. It is not a failure. It is an accurate description of where the system stands.</p>'
+			].join(''),
+			'mtl-2': [
+				'<p><strong>Nominally Calibrated</strong>. The strategy has passed Gate 1 (statistical fragility) and Gate 4 (probabilistic calibration) on a documented ledger of at least 200 resolved observations.</p>',
+				'<p><strong>Appropriate use</strong>: advisory signal within a broader multi-signal decision process. Diagnostic input for allocators building their own views.</p>',
+				'<p><strong>Not appropriate for</strong>: sole allocation signal. Cross-regime deployment without Gate 2 clearance. Any use that implies robustness beyond the tested regime.</p>',
+				'<p class="citation">Two gates cleared. Three remaining. The strategy shows statistical soundness and calibration, but has not been tested for regime persistence, guided-search bias, or bootstrap variance.</p>'
+			].join(''),
+			'mtl-3': [
+				'<p><strong>Robustly Calibrated</strong>. Passes MTL-2 requirements plus Gate 2 cross-regime robustness. Failure modes are documented publicly in the verdict-form.</p>',
+				'<p><strong>Appropriate use</strong>: allocation signal within a multi-signal portfolio. Measured exposure with explicit position limits. Quarterly revalidation required.</p>',
+				'<p><strong>Not appropriate for</strong>: primary or sole allocation signal at institutional scale. Deployment outside the disclosed regime scope invalidates the level.</p>',
+				'<p class="citation">Three gates cleared. Two remaining. The strategy has demonstrated regime persistence but has not been tested for guided-search safety or bootstrap-quantified confidence.</p>'
+			].join(''),
+			'mtl-4': [
+				'<p><strong>Adversarially Validated</strong>. Passes MTL-3 requirements plus Gate 3 (guided-search safety) and Gate 5 (bootstrap confidence). <strong>Sovereignty rule seven</strong> enforced: validator and strategy author are structurally distinct organizations with no shared upside from the verdict.</p>',
+				'<p><strong>Appropriate use</strong>: primary allocation signal at institutional scale. Biannual revalidation required. Annual public report on continued performance and any drift detected.</p>',
+				'<p><strong>Not appropriate for</strong>: mission-critical deployment without continuous supervision. Extension to instruments or regimes outside the verdict scope statement.</p>',
+				'<p class="citation">Five gates cleared once. Structural separation between builder and validator preserved. This is the institutional standard for adversarial validation.</p>'
+			].join(''),
+			'mtl-5': [
+				'<p><strong>Continuously Live-Validated</strong>. Passes MTL-4 requirements plus rolling live verdict updates. Automatic drift detection triggers forced revalidation on regime change, style drift, or material performance deviation from the verdict-form envelope.</p>',
+				'<p><strong>Appropriate use</strong>: mission-critical live trading under continuous supervision. Scaled deployment with real-time verdict-form status visible to allocator and validator simultaneously.</p>',
+				'<p><strong>Not appropriate for</strong>: nothing. This is the highest level Nyalai attributes. If a system needs more than MTL-5, the doctrine must evolve, not the attribution.</p>',
+				'<p class="citation">Five gates cleared, continuously re-cleared. The highest trust level Nyalai will attribute to any probabilistic system.</p>'
+			].join('')
+		};
+
+		function openModal(card) {
+			var key = card.getAttribute('data-detail');
+			if (!key || !DETAILS[key]) return;
+			eyebrowEl.textContent = card.getAttribute('data-detail-eyebrow') || '';
+			titleEl.innerHTML = card.getAttribute('data-detail-title') || '';
+			bodyEl.innerHTML = DETAILS[key];
+			document.body.classList.add('modal-open');
+			modal.showModal();
+		}
+		function closeModal() {
+			document.body.classList.remove('modal-open');
+			modal.close();
+		}
+
+		document.querySelectorAll('[data-detail]').forEach(function (card) {
+			card.setAttribute('role', 'button');
+			card.setAttribute('tabindex', '0');
+			card.addEventListener('click', function (e) {
+				// Don't intercept clicks on nested links, if any
+				if (e.target.closest('a')) return;
+				openModal(card);
+			});
+			card.addEventListener('keydown', function (e) {
+				if (e.key === 'Enter' || e.key === ' ') {
+					e.preventDefault();
+					openModal(card);
+				}
+			});
+		});
+
+		modal.addEventListener('click', function (e) {
+			// Click on backdrop closes; click on inner content does not
+			if (e.target === modal) closeModal();
+		});
+		modal.querySelector('[data-modal-close]').addEventListener('click', closeModal);
+		modal.addEventListener('cancel', function (e) {
+			// Escape key emits 'cancel' event; hijack to run our close routine
+			e.preventDefault();
+			closeModal();
+		});
+	})();
+</script></body></html>

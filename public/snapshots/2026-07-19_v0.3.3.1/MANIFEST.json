@@ -1,0 +1,56 @@
+{
+  "nyalai_snapshot_version": "0.1",
+  "doctrine_version_at_snapshot": "v0.3.3.1",
+  "snapshot_utc_timestamp": "2026-07-20T13:34:07Z",
+  "source_urls": [
+    "https://nyalai.com/doctrine"
+    ,"https://nyalai.com/verdicts"
+    ,"https://nyalai.com/verdicts/vf-001"
+    ,"https://nyalai.com/doctrine/governance"
+    ,"https://nyalai.com/methodology/relational-blinding"
+    ,"https://nyalai.com/methodology"
+    ,"https://nyalai.com/glossary"
+  ],
+  "file_hashes": {
+    "verdicts/001-synapse-v03.html": "c5e02366ecd9122f4df8ec549922aefceb8263cfce842f1c1bb66f3feff46ac7"
+    ,"verdicts/reference-R-01.html": "40060526d8cc98a3273a9b2b403e1cc013d2ed154debfe9649acf2a74dd204f3"
+    ,"verdicts/vf-001.html": "feddc577d1b94e56239a6ff0ea98831d122e10fc12ed144ee002d4b984324ba4"
+    ,"index.html": "ca6749c2434703cc0e4917c4e83ec27043fdb6c0dc99186fc73c4cc222afcc81"
+    ,"contact.html": "89087cf1d3e0d6b7fe7c4f5cad780539931dfdbf4173a408a37c41631a2ab153"
+    ,"favicon.png?v=2026-07-11": "fc0cf77b505d894a434f2be1cd9b43018c41ff250e4a60dfebb8e8720b2783b5"
+    ,"diptych_iphone_not_calibrated.png": "c1f525c798b2e70d3575cafa52ae457fbad3374c3990d8470ffe7f0686fcdbed"
+    ,"methodology/relational-blinding.html": "e4a627ca0c50eb876373d01f65bd5e56ec67cd6fe217cf2b4dab94956f36c114"
+    ,"verdicts.html": "f56c1bc346754b77821253b03ff5bd8a7fc2f1c30789e3c95074fc615a936db6"
+    ,"glossary.html": "6fd792a81c808a2149c5fd8f5266d6f9bb272ea7b77c733d42aa44001a5631a9"
+    ,"diptych_iphone_not_calibrated.webp": "7191061f8d36e97eab2e2252ad5b7e551700eb38d157202a5eaa4a67cc53cb2d"
+    ,"doctrine/governance.html": "b4d9ac63ab2a6893c5f8f38915ac8ebe6d47bfec59b246f89e2477312537d8d4"
+    ,"diptych_iphone_calibrated_mobile.webp": "eaa6aa17ab2dcd714ba9402619e675326679684f87b2a43958d87d9d40d5fbf9"
+    ,"_astro/glossary.CemJoKui.css": "2cac5c66d0ac3734f404a1e0b34df6739eb20a860202438196b5a664efbb40a4"
+    ,"_astro/reference-R-01.DKLm1EyK.css": "c113758d46958b5a4763b68f50a5936d1f0331d9081c82ca2303c6acbf6f0043"
+    ,"_astro/contact.BVUkZHDO.css": "3385fb1f3d48341d8bbb2b5d6c30bafdda7b2476eb30426be0cb12b70aaf62b8"
+    ,"_astro/index.fFm67Dfe.css": "8d50f24df4df81b28a9f68cb9f3b9f1bbfa4974eb61253982992291643e83df2"
+    ,"_astro/001-synapse-v03.CAsk5vD0.css": "0ff54c83e5fc3f371561721e49944586956ab802de167dfbf982f9665579729e"
+    ,"_astro/ContactWidget.BSFEn7gM.css": "75edc5e67f820f2ddae3366755c13c9c1b102fd30354c011d35254fb755f779e"
+    ,"_astro/methodology.7RV7IBUo.css": "1bcf08bf6d2b00c8589596523a0ee1a93d8213e27d12720da4e49f918a68764a"
+    ,"_astro/doctrine.BfLyOr6Q.css": "610f727ef9b96ed50fd25cb2f4ef349600748c603f9384e77e2b9da7d954cc77"
+    ,"_astro/fonts/6b82a9ea24a905e9.woff": "f0de8ccb0af6e50fd1b51d50d5032c6824adc0f1b435345919fca1d9b72b3623"
+    ,"_astro/fonts/c8e1359011974766.woff": "b51d2e16226a56e304ab9ba67d22f504afc5bdceab1caefe386063a26ee4bc0b"
+    ,"_astro/submit.gO7TkBwk.css": "8d645d3bcbdaeca41caeaf7bb547b0eb7f41d02fbaa585f2157ef1351050a664"
+    ,"sitemap-index.xml": "57f9b3a82c6372304f17c358c09acf3ea9fc1fcaf2eee2b149383e6b7647288a"
+    ,"doctrine.html": "980467e681048a336377e01ef5e508fa685c7ed1986aac066ccfd017ad4efca1"
+    ,"submit.html": "8f4e98d8837e8414e5187d5971cd77a31d31fb27c0613c445ce1186f8183ba27"
+    ,"robots.txt": "17254d129e5069e035609ebd02f80a2d85c404081b812d9929b3380df84e7996"
+    ,"methodology.html": "8cd2df67e67e655c78709d20c2e3a0317db86ec37757466cce03cd7ee95992fc"
+    ,"cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js": "2595496fe48df6fcf9b1bc57c29a744c121eb4dd11566466bc13d2e52e6bbcc8"
+    ,"diptych_iphone_calibrated.png": "73b035510f91e6134870bf88d9a8e45b1f93bcaa9be45bf58941ff34b4456e66"
+    ,"assets/nyalai_wordmark.png": "c17ab660e66b8f50c33e1032e1243c5461f77b78ccb3fa2092af53cb52a07e19"
+    ,"assets/nyalai_seal_green.png": "7f8d14acffc8d79e3cf828508da95674cf9c1260735352033e60dc1e3c71aa4a"
+    ,"assets/nyalai_seal_red_vibrant.png": "f8c17ac77b197b5559ef74263a89b58bd16ab88b0bd3ceafbbc63a852940588f"
+    ,"assets/nyalai_seal_v3.png": "45210233291d5d7299666ef2fdb7254faf6dfef5b213c3385d4ef22772acea3c"
+    ,"assets/nyalai_seal_v2.png": "cac29af4e5b09608746c8ad6fb8b453074d9c42c3ee5241fa33a5ec0cf58e4db"
+    ,"diptych_iphone_not_calibrated_mobile.webp": "545e463ae8c0e981957bda5ba25563c007629e23e4d4829dcf2637f1157b55d8"
+    ,"diptych_iphone_calibrated.webp": "5333bd4467b8ad78828cada9f11841c360b61e90c14488e6a99e9dfb25a92a4e"
+  }
+}
+
+// manifest_self_sha256: 983d585be6e9d336b3ee3a7f48f3968eb8edeb4b286c875b0a5cb53ce142bb0f
