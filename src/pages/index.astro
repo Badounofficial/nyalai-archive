@@ -4,13 +4,12 @@ import ArchiveLayout from '../layouts/ArchiveLayout.astro';
 // Placeholder snapshot data ; will be replaced with actual snapshots
 // once the wget mirroring script populates public/snapshots/
 const snapshots: Array<{date: string; version: string; description: string; path?: string}> = [
-  // Example entry format (uncomment when first snapshot is committed) :
-  // {
-  //   date: '2026-07-19',
-  //   version: 'v0.3.3.1',
-  //   description: 'Doctrine v0.3.3.1 seal + governance page + methodology + verdict-form',
-  //   path: '/snapshots/2026-07-19_v0.3.3.1/'
-  // }
+  {
+    date: '2026-07-19',
+    version: 'v0.3.3.1',
+    description: 'Doctrine v0.3.3.1 seal (July 19, 2026). Snapshot contains : doctrine, verdicts index + vf-001 + supporting pages, methodology + relational-blinding, doctrine/governance, glossary. 39 files, 7.1 MB. MANIFEST self-hash 983d585be6e9d336b3ee3a7f48f3968eb8edeb4b286c875b0a5cb53ce142bb0f.',
+    path: '/snapshots/2026-07-19_v0.3.3.1/doctrine.html'
+  }
 ];
 ---
 
